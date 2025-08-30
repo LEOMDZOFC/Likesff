@@ -7,8 +7,8 @@
     <style>
         body {
     font-family: Arial, sans-serif;
-    background-color: #0d0d0d; /* Preto escuro elegante */
-    color: #e0e0ff; /* Texto em roxo claro */
+    background-color: #0d0d0d; 
+    color: #e0e0ff;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -27,9 +27,9 @@
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(75, 0, 130, 0.15); /* Roxo escuro translúcido */
+    background-color: rgba(75, 0, 130, 0.15);
     border-radius: 12px;
-    box-shadow: 0 0 15px rgba(148, 0, 211, 0.5); /* Brilho roxo */
+    box-shadow: 0 0 15px rgba(148, 0, 211, 0.5);
     position: relative;
     z-index: 1;
     color: #fff;
@@ -37,7 +37,7 @@
 
 h1 {
     text-align: center;
-    color: #ba55d3; /* Roxo médio vibrante */
+    color: #ba55d3; 
     font-weight: bold;
 }
 
@@ -45,16 +45,16 @@ input[type="text"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 2px solid #8a2be2; /* Roxo borda */
+    border: 2px solid #8a2be2; 
     border-radius: 6px;
-    background-color: #1a1a1a; /* Fundo do input escuro */
+    background-color: #1a1a1a;
     color: #e0e0ff;
 }
 
 input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #8a2be2; /* Roxo vivo */
+    background-color: #8a2be2; 
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -63,7 +63,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #6a0dad; /* Roxo mais escuro */
+    background-color: #6a0dad;
     transform: scale(1.02);
 }
 
@@ -91,7 +91,7 @@ input[type="submit"]:hover {
 </head>
 <body>
 
-<div id="particles-js"></div> <!-- Área das partículas -->
+<div id="particles-js"></div>
 
 <div class="container">
     <h1>STANLEY LIKES FF</h1>
@@ -140,7 +140,7 @@ input[type="submit"]:hover {
             "line_linked": {
                 "enable": true,
                 "distance": 150,
-                "color": "#DDA0DD", /* Cor das linhas entre partículas */
+                "color": "#DDA0DD",
                 "opacity": 0.4,
                 "width": 1
             },
@@ -182,7 +182,7 @@ input[type="submit"]:hover {
         return;
     }
 
-    var apiUrl = `https://mdzapis.com/api/likesff?id=${encodeURIComponent(id)}`;
+    var apiUrl = `https://link_da_sua_api_likesff_com`;
 
     fetch(apiUrl)
         .then(response => response.json())
